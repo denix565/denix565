@@ -1,5 +1,7 @@
 *{
-  background-color: #EDF7F6;
+  background-color:none ;
+  font-size-adjust: 0.59;
+  
 }
 
 a{
@@ -19,19 +21,26 @@ div {
 
 #title{
   text-align: center;
-  color: #66abdd;
+  color: #000000;
   margin-top: 50px;
   font-style: italic;
-  background-color: #e1ecec;
+  background-color: #ffffff;
+}
+li{
+  font-size: 18px;
+}
+h2{
+  color: #882206;
+  font-style: italic;
+  font-size: 20px;
 }
 
-h2{
-  color: #751d05;
-  font-style: italic;
+header{
+  font-size: 18px;
 }
 
 .points{
-  color:#66abdd;
+  color:#0e12e0;
   font-style: s;
 
 }
@@ -40,16 +49,12 @@ h2{
   font-family: bold;
 }
 
-#firstimg{
-  margin-left: 200px;
-  border-radius: 5px;
-}
-
 .footer{
   margin-bottom: 50px;
-  color: #66abdd;
-  background-color: #e1ecec;
-  font-style: italic;
+  color: #000000;
+  background-color: #ffffff;
+  font-style: arial;
+  font-size: 17px;
 }
 
 .button container{
@@ -59,15 +64,23 @@ h2{
 }
 
 .button{
-  backgourn-color:#66abdd;
+
+  backgourn-color:#b4df18;
   border: none;
   padding: 10px;
+  font-size: 18px;
   display: inline-block;
+  
 }
+
+p{
+  font-size: 18px;
+  }
 
 img{
   padding: 10px;
-  max-width: auto;
+  max-width: 80%;
+  border-radius: 5px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
